@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 RUN npm install
 
 # replace this with your application's default port
-EXPOSE 8080
+EXPOSE 8888
 
 # replace this with your main "server" script file
 CMD [ "node", "app.js" ]
