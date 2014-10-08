@@ -5,9 +5,9 @@ module.exports = function (app) {
   var router = express.Router();
 
   // User routes
-  var users = require('../app/controllers/recordclimate');
+  var recordclimate = require('../app/controllers/recordclimate');
   router.post('/users', recordclimate.recordReading);
-  router.get('/users/', recordclimate.returnReadings);
+  router.get('/users', recordclimate.returnReadings);
 
   
 

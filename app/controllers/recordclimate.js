@@ -1,7 +1,7 @@
 exports.recordReading = function(req, res){
-	res.render('index', { title: 'Express' });
+	res.render('index', { title: 'Express1' });
 }
 
-exports.returnResults = function(req,res){
-	res.render('index', { title: 'Express' });
+exports.returnReadings = function(req,res){
+	res.render('index', { title: 'Express2' });
 }
