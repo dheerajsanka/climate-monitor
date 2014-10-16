@@ -3,5 +3,5 @@ exports.recordReading = function(req, res){
 }
 
 exports.returnReadings = function(req,res){
-	res.render('index', { title: 'Express2' });
+	res.render('index', { title: 'Express234' });
 }
